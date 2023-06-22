@@ -1,0 +1,19 @@
+{
+    "name": "renat/back",
+    "autoload": {
+        "psr-4": {
+            "app\\": "back/",
+            "tests\\": "tests/",
+            "routers\\": "routers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Renato Andrade",
+            "email": "renatoandradedesign@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
